@@ -88,9 +88,7 @@ Q5: Produce a list of facilities, with each labelled as
 'cheap' or 'expensive', depending on if their monthly maintenance cost is
 more than $100. Return the name and monthly maintenance of the facilities
 in question. */
-*********
-combine the 2 query
-*********
+
 
 SELECT `name` , CASE when `monthlymaintenance`< 100 then "cheap" 
 ELSE "expensive" END AS rate, `monthlymaintenance`

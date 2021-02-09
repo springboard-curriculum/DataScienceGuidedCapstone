@@ -46,35 +46,33 @@ WHERE `membercost` !=0
 
 answer 5
 
-/* Q3: Write an SQL query to show a list of facilities that charge a fee to members,
+/* RE-Wrote SQL 2021/02/08
+Q3: Write an SQL query to show a list of facilities that charge a fee to members,  
 where the fee is less than 20% of the facility's monthly maintenance cost.
 Return the facid, facility name, member cost, and monthly maintenance of the
 facilities in question. */
 SELECT `facid` , `name` , `membercost` , (
-`membercost` * .20
-) AS less20_cost
+`monthlymaintenance` * .20) AS `monthlymaintenance`
 FROM `Facilities`
-WHERE `membercost` >0
+WHERE `membercost` < ( `monthlymaintenance` * .20 )
 LIMIT 0 , 30
+
 
 looking at the data all the membercost is less than 20%, This includes the 0 membercost for use.
 
 Database country_club
 
-Table structure for table Facilities
-Column			Type		Null	Default
-facid			int(1)		No		0
-name			varchar(15)	Yes		NULL
-membercost		decimal(2,1)Yes		NULL
-guestcost		decimal(3,1)Yes		NULL
-initialoutlay	int(5)		Yes		NULL
-monthlymaintenance	int(4)	Yes		NULL
-Dumping data for table Facilities
-0	Tennis Court 1	5.0	1.000
-1	Tennis Court 2	5.0	1.000
-4	Massage Room 1	9.9	1.980
-5	Massage Room 2	9.9	1.980
-6	Squash Court	3.5	0.700
+facid	name		memebercost	monthlymaintenance
+0	Tennis Court 1	5			40
+1	Tennis Court 2	5			40
+2	Badminton Court	0			10
+3	Table Tennis	0			2
+4	Massage Room 1	9.9			600
+5	Massage Room 2	9.9			600
+6	Squash Court	3.5			16
+7	Snooker Table	0			3
+8	Pool Table		0			3
+
 
 
 
@@ -82,47 +80,37 @@ Dumping data for table Facilities
 Try writing the query without using the OR operator. */
 SELECT *
 FROM `Facilities`
-WHERE `facid`
-BETWEEN 1
-AND 5
+WHERE `facid` in (1, 5)
 LIMIT 0 , 30
 
-/* Q5: Produce a list of facilities, with each labelled as
+/* Re Wrote 2021/02/08
+Q5: Produce a list of facilities, with each labelled as
 'cheap' or 'expensive', depending on if their monthly maintenance cost is
 more than $100. Return the name and monthly maintenance of the facilities
 in question. */
+*********
+combine the 2 query
+*********
 
-SELECT `name` , "expensive", `monthlymaintenance`
+SELECT `name` , CASE when `monthlymaintenance`< 100 then "cheap" 
+ELSE "expensive" END AS rate, `monthlymaintenance`
 FROM Facilities
-WHERE `monthlymaintenance` >100
+order by rate
 LIMIT 0 , 30;
 
 Database country_club
-Table structure for table Facilities
-Column	Type	Null	Default
-facid	int(1)	No	0
-name	varchar(15)	Yes	NULL
-membercost	decimal(2,1)	Yes	NULL
-guestcost	decimal(3,1)	Yes	NULL
-initialoutlay	int(5)	Yes	NULL
-monthlymaintenance	int(4)	Yes	NULL
-Dumping data for table Facilities
-Tennis Court 	1	expensive	200
-Tennis Court 	2	expensive	200
-Massage Room 	1	expensive	3000
-Massage Room	 2	expensive	3000
-
-SELECT `name` , "cheap", `monthlymaintenance`
-FROM Facilities
-WHERE `monthlymaintenance` <= 100
-LIMIT 0 , 30;
-
-name			cheap		monthlymaintenance	
+name			rate		monthlymaintenance	
 Badminton Court	cheap		50
 Table Tennis	cheap		10
 Squash Court	cheap		80
 Snooker Table	cheap		15
 Pool Table		cheap		15
+Tennis Court 1	expensive	200
+Tennis Court 2	expensive	200
+Massage Room 1	expensive	3000
+Massage Room 2	expensive	3000
+
+
 
 /* Q6: You'd like to get the first and last name of the last member(s)
 who signed up. Try not to use the LIMIT clause for your solution. */
@@ -134,7 +122,7 @@ Dareren		Smith		2012-09-26 18:08:45
 Include in your output the name of the court, and the name of the member
 formatted as a single column. Ensure no duplicate data, and order by
 the member name. */
-SELECT CONCAT( m.firstname, ' ', m.surname, ' ', f.name )
+SELECT CONCAT( m.firstname, ' ', m.surname), f.name
 FROM Members m
 LEFT JOIN Bookings b ON m.memid = b.memid
 INNER JOIN Facilities f ON f.facid = b.facid
@@ -143,7 +131,7 @@ GROUP BY f.name, m.surname
 ORDER BY m.firstname
 LIMIT 0 , 30
 
-CONCAT( m.firstname, ' ', m.surname, ' ', f.name )
+CONCAT( m.firstname, ' ', m.surname ), f.name
 Anne Baker Tennis Court 1
 Anne Baker Tennis Court 2
 Burton Tracy Tennis Court 2
@@ -273,6 +261,8 @@ QUESTIONS:
 /* Q10: Produce a list of facilities with a total revenue less than 1000.
 The output of facility name and total revenue, sorted by revenue. Remember
 that there's a different cost for guests and members! */
+
+
 answer in juypter notebook 
     select Facility, sum(cost) 
     from(SELECT m.firstname, m.surname , f.name as Facility, CASE WHEN m.memid = 0 
@@ -282,7 +272,7 @@ answer in juypter notebook
         JOIN Facilities f ON f.facid = b.facid
         where 1=1) as bob
     GROUP BY Facility
-    HAVING sum( cost ) <100
+    HAVING sum( cost ) <1000
 	
 2.6.0
 3. Query all tasks
@@ -293,8 +283,12 @@ answer in juypter notebook
 
 
 /* Q11: Produce a report of members and who recommended them in alphabetic surname,firstname order */
-select * from Members
-where memID in (select recommendedby from Members)
+
+    select tim.surname, tim.firstname, (m.surname ||' '|| m.firstname) AS Referral
+    from (select surname, firstname, recommendedby from Members where recommendedby > 0) as tim
+    join Members m on m.memid = tim.recommendedby
+    where m.memid in (select recommendedby from Members where recommendedby > 0)
+    order by tim.surname, tim.firstname
 
 
 2.6.0

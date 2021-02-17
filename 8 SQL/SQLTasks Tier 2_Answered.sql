@@ -51,8 +51,7 @@ Q3: Write an SQL query to show a list of facilities that charge a fee to members
 where the fee is less than 20% of the facility's monthly maintenance cost.
 Return the facid, facility name, member cost, and monthly maintenance of the
 facilities in question. */
-SELECT `facid` , `name` , `membercost` , (
-`monthlymaintenance` * .20) AS `monthlymaintenance`
+SELECT `facid` , `name` , `membercost` , `monthlymaintenance`
 FROM `Facilities`
 WHERE `membercost` < ( `monthlymaintenance` * .20 )
 LIMIT 0 , 30
@@ -113,6 +112,11 @@ Massage Room 2	expensive	3000
 /* Q6: You'd like to get the first and last name of the last member(s)
 who signed up. Try not to use the LIMIT clause for your solution. */
 
+SELECT `firstname` , `surname` , `joindate`
+FROM Members
+WHERE joindate = (
+SELECT max( joindate )
+FROM Members )
 firstname 	surname		joindate
 Dareren		Smith		2012-09-26 18:08:45
 

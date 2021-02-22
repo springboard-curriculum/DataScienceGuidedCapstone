@@ -46,14 +46,15 @@ WHERE `membercost` !=0
 
 answer 5
 
-/* RE-Wrote SQL 2021/02/08
+/* RE-Wrote SQL 2021/21/08
 Q3: Write an SQL query to show a list of facilities that charge a fee to members,  
 where the fee is less than 20% of the facility's monthly maintenance cost.
 Return the facid, facility name, member cost, and monthly maintenance of the
 facilities in question. */
 SELECT `facid` , `name` , `membercost` , `monthlymaintenance`
 FROM `Facilities`
-WHERE `membercost` < ( `monthlymaintenance` * .20 )
+WHERE `membercost` >0
+AND `membercost` < ( `monthlymaintenance` * .20 )
 LIMIT 0 , 30
 
 
@@ -62,15 +63,12 @@ looking at the data all the membercost is less than 20%, This includes the 0 mem
 Database country_club
 
 facid	name		memebercost	monthlymaintenance
-0	Tennis Court 1	5			40
-1	Tennis Court 2	5			40
-2	Badminton Court	0			10
-3	Table Tennis	0			2
-4	Massage Room 1	9.9			600
-5	Massage Room 2	9.9			600
-6	Squash Court	3.5			16
-7	Snooker Table	0			3
-8	Pool Table		0			3
+0	Tennis Court 1	5			200
+1	Tennis Court 2	5			200
+4	Massage Room 1	9.9			3000
+5	Massage Room 2	9.9			3000
+6	Squash Court	3.5			80
+
 
 
 

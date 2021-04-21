@@ -12,7 +12,7 @@ jupyterlab = "==2.2.5"
 scikit-learn = "==0.23.2"
 matplotlib = "==3.3.1"
 seaborn = "==0.10.1"
-lxml = "==4.5.2"
+lxml = "==4.6.3"
 
 [requires]
 python_version = "3.8"

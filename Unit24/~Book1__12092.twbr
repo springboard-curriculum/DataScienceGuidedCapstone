@@ -1,0 +1,1262 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0511.0935                               -->
+<workbook source-build='2021.1.2 (20211.21.0511.0935)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Market Data+ (1564687817_ChemCorp_Sales_Data_Jan15_Dec15)' inline='true' name='federated.16t58k31g2m2gq1b3258t08082sc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='1564687817_ChemCorp_Sales_Data_Jan15_Dec15' name='excel-direct.0opsr560jzmlef1gn8dlf0bu0e23'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/springboard/DataScienceGuidedCapstone/Unit24/1564687817_ChemCorp_Sales_Data_Jan15_Dec15.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0opsr560jzmlef1gn8dlf0bu0e23' name='Market Data' table='[&apos;Market Data$&apos;]' type='table'>
+          <columns gridOrigin='A1:B7:no:A1:B7:0' header='yes' outcome='6'>
+            <column datatype='string' name='Business Type' ordinal='0' />
+            <column datatype='integer' name='Total Businesses' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='excel-direct.0opsr560jzmlef1gn8dlf0bu0e23' name='Market Data' table='[&apos;Market Data$&apos;]' type='table'>
+            <columns gridOrigin='A1:B7:no:A1:B7:0' header='yes' outcome='6'>
+              <column datatype='string' name='Business Type' ordinal='0' />
+              <column datatype='integer' name='Total Businesses' ordinal='1' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.0opsr560jzmlef1gn8dlf0bu0e23' name='Transaction Data' table='[&apos;Transaction Data$&apos;]' type='table'>
+            <columns gridOrigin='A1:N10001:no:A1:N10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='Sale ID' ordinal='0' />
+              <column datatype='date' name='Date' ordinal='1' />
+              <column datatype='integer' name='Customer ID' ordinal='2' />
+              <column datatype='string' name='Product Type' ordinal='3' />
+              <column datatype='string' name='Product ID' ordinal='4' />
+              <column datatype='string' name='Region' ordinal='5' />
+              <column datatype='string' name='State' ordinal='6' />
+              <column datatype='string' name='Business Type' ordinal='7' />
+              <column datatype='real' name='Cost (per unit)' ordinal='8' />
+              <column datatype='real' name='Price (per unit)' ordinal='9' />
+              <column datatype='real' name='Quantity' ordinal='10' />
+              <column datatype='real' name='Revenue (total)' ordinal='11' />
+              <column datatype='real' name='Cost (total)' ordinal='12' />
+              <column datatype='integer' name='Zip Code' ordinal='13' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[Business Type (Transaction Data)]' value='[Transaction Data].[Business Type]' />
+          <map key='[Business Type]' value='[Market Data].[Business Type]' />
+          <map key='[Cost (per unit)]' value='[Transaction Data].[Cost (per unit)]' />
+          <map key='[Cost (total)]' value='[Transaction Data].[Cost (total)]' />
+          <map key='[Customer ID]' value='[Transaction Data].[Customer ID]' />
+          <map key='[Date]' value='[Transaction Data].[Date]' />
+          <map key='[Price (per unit)]' value='[Transaction Data].[Price (per unit)]' />
+          <map key='[Product ID]' value='[Transaction Data].[Product ID]' />
+          <map key='[Product Type]' value='[Transaction Data].[Product Type]' />
+          <map key='[Quantity]' value='[Transaction Data].[Quantity]' />
+          <map key='[Region]' value='[Transaction Data].[Region]' />
+          <map key='[Revenue (total)]' value='[Transaction Data].[Revenue (total)]' />
+          <map key='[Sale ID]' value='[Transaction Data].[Sale ID]' />
+          <map key='[State]' value='[Transaction Data].[State]' />
+          <map key='[Total Businesses]' value='[Market Data].[Total Businesses]' />
+          <map key='[Zip Code]' value='[Transaction Data].[Zip Code]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Market Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B7:no:A1:B7:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Transaction Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:N10001:no:A1:N10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Business Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Business Type]</local-name>
+            <parent-name>[Market Data]</parent-name>
+            <remote-alias>Business Type</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Market Data_1E4A515862A741CDA5EC212303DEE79E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Businesses</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Businesses]</local-name>
+            <parent-name>[Market Data]</parent-name>
+            <remote-alias>Total Businesses</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Market Data_1E4A515862A741CDA5EC212303DEE79E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sale ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sale ID]</local-name>
+            <parent-name>[Transaction Data]</parent-name>
+            <remote-alias>Sale ID</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Transaction Data]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Customer ID]</local-name>
+            <parent-name>[Transaction Data]</parent-name>
+            <remote-alias>Customer ID</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Product Type]</local-name>
+            <parent-name>[Transaction Data]</parent-name>
+            <remote-alias>Product Type</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Product ID]</local-name>
+            <parent-name>[Transaction Data]</parent-name>
+            <remote-alias>Product ID</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[Transaction Data]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Transaction Data]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Business Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Business Type (Transaction Data)]</local-name>
+            <parent-name>[Transaction Data]</parent-name>
+            <remote-alias>Business Type</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cost (per unit)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cost (per unit)]</local-name>
+            <parent-name>[Transaction Data]</parent-name>
+            <remote-alias>Cost (per unit)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price (per unit)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Price (per unit)]</local-name>
+            <parent-name>[Transaction Data]</parent-name>
+            <remote-alias>Price (per unit)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Quantity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Quantity]</local-name>
+            <parent-name>[Transaction Data]</parent-name>
+            <remote-alias>Quantity</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revenue (total)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Revenue (total)]</local-name>
+            <parent-name>[Transaction Data]</parent-name>
+            <remote-alias>Revenue (total)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cost (total)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cost (total)]</local-name>
+            <parent-name>[Transaction Data]</parent-name>
+            <remote-alias>Cost (total)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Zip Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Zip Code]</local-name>
+            <parent-name>[Transaction Data]</parent-name>
+            <remote-alias>Zip Code</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='SALES BY BUSINESS TYPE' datatype='real' name='[Calculation_850898905151434752]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Revenue (total)])' />
+      </column>
+      <column caption='Cost / Price' datatype='real' name='[Calculation_850898905156444161]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='' />
+      </column>
+      <column caption='Total Sold' datatype='real' name='[Calculation_850898905156603906]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Price (per unit)]*[Quantity]' />
+      </column>
+      <column caption='Total Volumne' datatype='real' name='[Calculation_850898905305563140]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Quantity]x[Product ID]' />
+      </column>
+      <column datatype='integer' name='[Customer ID]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Product ID]' role='dimension' type='nominal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Zip Code]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Market Data' datatype='table' name='[__tableau_internal_object_id__].[Market Data_1E4A515862A741CDA5EC212303DEE79E]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Transaction Data' datatype='table' name='[__tableau_internal_object_id__].[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]' role='measure' type='quantitative' />
+      <column-instance column='[Product ID]' derivation='None' name='[none:Product ID:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='D:/springboard/DataScienceGuidedCapstone/Unit24/Market Data+ (1564687817_ChemCorp_Sales_Data_Jan15_Dec15).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='06/06/2021 04:40:44 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Market Data_1E4A515862A741CDA5EC212303DEE79E' table='[Extract].[Market Data_1E4A515862A741CDA5EC212303DEE79E]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+            <relation name='Market Data_1E4A515862A741CDA5EC212303DEE79E' table='[Extract].[Market Data_1E4A515862A741CDA5EC212303DEE79E]' type='table' />
+            <relation name='Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C' table='[Extract].[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]' type='table' />
+          </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+          <cols>
+            <map key='[Business Type (Transaction Data)]' value='[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C].[Business Type]' />
+            <map key='[Business Type]' value='[Market Data_1E4A515862A741CDA5EC212303DEE79E].[Business Type]' />
+            <map key='[Cost (per unit)]' value='[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C].[Cost (per unit)]' />
+            <map key='[Cost (total)]' value='[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C].[Cost (total)]' />
+            <map key='[Customer ID]' value='[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C].[Customer ID]' />
+            <map key='[Date]' value='[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C].[Date]' />
+            <map key='[Price (per unit)]' value='[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C].[Price (per unit)]' />
+            <map key='[Product ID]' value='[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C].[Product ID]' />
+            <map key='[Product Type]' value='[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C].[Product Type]' />
+            <map key='[Quantity]' value='[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C].[Quantity]' />
+            <map key='[Region]' value='[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C].[Region]' />
+            <map key='[Revenue (total)]' value='[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C].[Revenue (total)]' />
+            <map key='[Sale ID]' value='[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C].[Sale ID]' />
+            <map key='[State]' value='[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C].[State]' />
+            <map key='[Total Businesses]' value='[Market Data_1E4A515862A741CDA5EC212303DEE79E].[Total Businesses]' />
+            <map key='[Zip Code]' value='[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C].[Zip Code]' />
+          </cols>
+          <refresh>
+            <refresh-event add-from-file-path='Market Data+ (1564687817_ChemCorp_Sales_Data_Jan15_Dec15)' increment-value='%null%' refresh-type='create' rows-inserted='45522' timestamp-start='2021-06-06 04:40:44.705' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Business Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Business Type]</local-name>
+              <parent-name>[Market Data_1E4A515862A741CDA5EC212303DEE79E]</parent-name>
+              <remote-alias>Business Type</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Market Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Market Data_1E4A515862A741CDA5EC212303DEE79E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Businesses</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total Businesses]</local-name>
+              <parent-name>[Market Data_1E4A515862A741CDA5EC212303DEE79E]</parent-name>
+              <remote-alias>Total Businesses</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Market Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Market Data_1E4A515862A741CDA5EC212303DEE79E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sale ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sale ID]</local-name>
+              <parent-name>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</parent-name>
+              <remote-alias>Sale ID</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Transaction Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>45516</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Transaction Data</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>770</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Customer ID]</local-name>
+              <parent-name>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</parent-name>
+              <remote-alias>Customer ID</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Transaction Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>993</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Product Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Product Type]</local-name>
+              <parent-name>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</parent-name>
+              <remote-alias>Product Type</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Transaction Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Product ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Product ID]</local-name>
+              <parent-name>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</parent-name>
+              <remote-alias>Product ID</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Transaction Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Region]</local-name>
+              <parent-name>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</parent-name>
+              <remote-alias>Region</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Transaction Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Transaction Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>57</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Business Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Business Type (Transaction Data)]</local-name>
+              <parent-name>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</parent-name>
+              <remote-alias>Business Type</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Transaction Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Cost (per unit)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Cost (per unit)]</local-name>
+              <parent-name>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</parent-name>
+              <remote-alias>Cost (per unit)</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Transaction Data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Price (per unit)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Price (per unit)]</local-name>
+              <parent-name>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</parent-name>
+              <remote-alias>Price (per unit)</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Transaction Data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1504</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Quantity</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Quantity]</local-name>
+              <parent-name>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</parent-name>
+              <remote-alias>Quantity</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Transaction Data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1995</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Revenue (total)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Revenue (total)]</local-name>
+              <parent-name>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</parent-name>
+              <remote-alias>Revenue (total)</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Transaction Data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9984</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Cost (total)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Cost (total)]</local-name>
+              <parent-name>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</parent-name>
+              <remote-alias>Cost (total)</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Transaction Data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4611</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Zip Code</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Zip Code]</local-name>
+              <parent-name>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</parent-name>
+              <remote-alias>Zip Code</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Transaction Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15440</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Product ID:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Chemical I&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Chemical A&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Chemical E&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Chemical J&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Chemical F&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Chemical B&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Chemical G&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Chemical K&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Chemical H&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Chemical C&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Chemical D&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Market Data' id='Market Data_1E4A515862A741CDA5EC212303DEE79E'>
+            <properties context=''>
+              <relation connection='excel-direct.0opsr560jzmlef1gn8dlf0bu0e23' name='Market Data' table='[&apos;Market Data$&apos;]' type='table'>
+                <columns gridOrigin='A1:B7:no:A1:B7:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Business Type' ordinal='0' />
+                  <column datatype='integer' name='Total Businesses' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Market Data_1E4A515862A741CDA5EC212303DEE79E' table='[Extract].[Market Data_1E4A515862A741CDA5EC212303DEE79E]' type='table' />
+            </properties>
+          </object>
+          <object caption='Transaction Data' id='Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C'>
+            <properties context=''>
+              <relation connection='excel-direct.0opsr560jzmlef1gn8dlf0bu0e23' name='Transaction Data' table='[&apos;Transaction Data$&apos;]' type='table'>
+                <columns gridOrigin='A1:N10001:no:A1:N10001:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Sale ID' ordinal='0' />
+                  <column datatype='date' name='Date' ordinal='1' />
+                  <column datatype='integer' name='Customer ID' ordinal='2' />
+                  <column datatype='string' name='Product Type' ordinal='3' />
+                  <column datatype='string' name='Product ID' ordinal='4' />
+                  <column datatype='string' name='Region' ordinal='5' />
+                  <column datatype='string' name='State' ordinal='6' />
+                  <column datatype='string' name='Business Type' ordinal='7' />
+                  <column datatype='real' name='Cost (per unit)' ordinal='8' />
+                  <column datatype='real' name='Price (per unit)' ordinal='9' />
+                  <column datatype='real' name='Quantity' ordinal='10' />
+                  <column datatype='real' name='Revenue (total)' ordinal='11' />
+                  <column datatype='real' name='Cost (total)' ordinal='12' />
+                  <column datatype='integer' name='Zip Code' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C' table='[Extract].[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[Business Type]' />
+              <expression op='[Business Type (Transaction Data)]' />
+            </expression>
+            <first-end-point object-id='Market Data_1E4A515862A741CDA5EC212303DEE79E' />
+            <second-end-point object-id='Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Business Type'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Market Data+ (1564687817_ChemCorp_Sales_Data_Jan15_Dec15)' name='federated.16t58k31g2m2gq1b3258t08082sc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16t58k31g2m2gq1b3258t08082sc'>
+            <column datatype='string' name='[Business Type (Transaction Data)]' role='dimension' type='nominal' />
+            <column caption='SALES BY BUSINESS TYPE' datatype='real' name='[Calculation_850898905151434752]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Revenue (total)])' />
+            </column>
+            <column datatype='string' name='[Product ID]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Revenue (total)]' role='measure' type='quantitative' />
+            <column-instance column='[Business Type (Transaction Data)]' derivation='None' name='[none:Business Type (Transaction Data):nk]' pivot='key' type='nominal' />
+            <column-instance column='[Product ID]' derivation='None' name='[none:Product ID:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_850898905151434752]' derivation='User' name='[usr:Calculation_850898905151434752:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.16t58k31g2m2gq1b3258t08082sc].[none:Business Type (Transaction Data):nk]' value='133' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.16t58k31g2m2gq1b3258t08082sc].[none:Product ID:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.16t58k31g2m2gq1b3258t08082sc].[usr:Calculation_850898905151434752:qk]</rows>
+        <cols>[federated.16t58k31g2m2gq1b3258t08082sc].[none:Business Type (Transaction Data):nk]</cols>
+      </table>
+      <simple-id uuid='{410E68E0-14C8-49C8-BC52-AE4D92477CFC}' />
+    </worksheet>
+    <worksheet name='Chemical by Region Qty'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Market Data+ (1564687817_ChemCorp_Sales_Data_Jan15_Dec15)' name='federated.16t58k31g2m2gq1b3258t08082sc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16t58k31g2m2gq1b3258t08082sc'>
+            <column datatype='string' name='[Product ID]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Quantity]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+            <column-instance column='[Product ID]' derivation='None' name='[none:Product ID:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Quantity]' derivation='Sum' name='[sum:Quantity:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.16t58k31g2m2gq1b3258t08082sc].[none:Product ID:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.16t58k31g2m2gq1b3258t08082sc].[none:Region:nk] / [federated.16t58k31g2m2gq1b3258t08082sc].[none:Product ID:nk])</rows>
+        <cols>[federated.16t58k31g2m2gq1b3258t08082sc].[sum:Quantity:qk]</cols>
+      </table>
+      <simple-id uuid='{4A77774C-8B25-4BAD-AA6E-33BD1C664FC9}' />
+    </worksheet>
+    <worksheet name='Customer per Chemical'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Market Data+ (1564687817_ChemCorp_Sales_Data_Jan15_Dec15)' name='federated.16t58k31g2m2gq1b3258t08082sc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16t58k31g2m2gq1b3258t08082sc'>
+            <column datatype='integer' name='[Customer ID]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Product ID]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Revenue (total)]' role='measure' type='quantitative' />
+            <column-instance column='[Customer ID]' derivation='None' name='[none:Customer ID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Product ID]' derivation='None' name='[none:Product ID:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Revenue (total)]' derivation='Sum' name='[sum:Revenue (total):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.16t58k31g2m2gq1b3258t08082sc].[none:Product ID:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.16t58k31g2m2gq1b3258t08082sc].[sum:Revenue (total):qk]</rows>
+        <cols>[federated.16t58k31g2m2gq1b3258t08082sc].[none:Customer ID:ok]</cols>
+      </table>
+      <simple-id uuid='{4C3F9ED0-5857-498D-952A-A6DA2CB5414C}' />
+    </worksheet>
+    <worksheet name='Date of Sales per category '>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{99084AFF-90EE-4430-85A9-CD58C9F83B5B}' />
+    </worksheet>
+    <worksheet name='Region that bought most Chemical'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Market Data+ (1564687817_ChemCorp_Sales_Data_Jan15_Dec15)' name='federated.16t58k31g2m2gq1b3258t08082sc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16t58k31g2m2gq1b3258t08082sc'>
+            <column caption='SALES BY BUSINESS TYPE' datatype='real' name='[Calculation_850898905151434752]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Revenue (total)])' />
+            </column>
+            <column caption='Total Sold' datatype='real' name='[Calculation_850898905156603906]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Price (per unit)]*[Quantity]' />
+            </column>
+            <column datatype='real' name='[Cost (per unit)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Cost (total)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Price (per unit)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Product ID]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Quantity]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Revenue (total)]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='Market Data' datatype='integer' name='[__tableau_internal_object_id__].[Market Data_1E4A515862A741CDA5EC212303DEE79E]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total Businesses]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='Transaction Data' datatype='integer' name='[__tableau_internal_object_id__].[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='Market Data' datatype='table' name='[__tableau_internal_object_id__].[Market Data_1E4A515862A741CDA5EC212303DEE79E]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='Transaction Data' datatype='table' name='[__tableau_internal_object_id__].[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Market Data_1E4A515862A741CDA5EC212303DEE79E]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Market Data_1E4A515862A741CDA5EC212303DEE79E:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Transaction Data_F08D3E4E769B437D88CB8DDDDF858D8C:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Product ID]' derivation='None' name='[none:Product ID:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_850898905156603906]' derivation='Sum' name='[sum:Calculation_850898905156603906:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cost (per unit)]' derivation='Sum' name='[sum:Cost (per unit):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cost (total)]' derivation='Sum' name='[sum:Cost (total):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Price (per unit)]' derivation='Sum' name='[sum:Price (per unit):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Quantity]' derivation='Sum' name='[sum:Quantity:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Revenue (total)]' derivation='Sum' name='[sum:Revenue (total):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Businesses]' derivation='Sum' name='[sum:Total Businesses:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_850898905151434752]' derivation='User' name='[usr:Calculation_850898905151434752:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.16t58k31g2m2gq1b3258t08082sc].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <slices>
+            <column>[federated.16t58k31g2m2gq1b3258t08082sc].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.16t58k31g2m2gq1b3258t08082sc].[none:Product ID:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.16t58k31g2m2gq1b3258t08082sc].[Multiple Values]</rows>
+        <cols>[federated.16t58k31g2m2gq1b3258t08082sc].[none:Region:nk]</cols>
+      </table>
+      <simple-id uuid='{73B76547-7433-4AD6-A813-1639F1020FDD}' />
+    </worksheet>
+    <worksheet name='Revenue of Product sold most'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Market Data+ (1564687817_ChemCorp_Sales_Data_Jan15_Dec15)' name='federated.16t58k31g2m2gq1b3258t08082sc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16t58k31g2m2gq1b3258t08082sc'>
+            <column datatype='string' name='[Product ID]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Revenue (total)]' role='measure' type='quantitative' />
+            <column-instance column='[Product ID]' derivation='None' name='[none:Product ID:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Revenue (total)]' derivation='Sum' name='[pcto:sum:Revenue (total):qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.16t58k31g2m2gq1b3258t08082sc].[none:Product ID:nk]' ordering-type='Field' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <manual-sort column='[federated.16t58k31g2m2gq1b3258t08082sc].[none:Product ID:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>%all%</bucket>
+              <bucket>&quot;Chemical A&quot;</bucket>
+              <bucket>&quot;Chemical J&quot;</bucket>
+              <bucket>&quot;Chemical C&quot;</bucket>
+              <bucket>&quot;Chemical E&quot;</bucket>
+              <bucket>&quot;Chemical B&quot;</bucket>
+              <bucket>&quot;Chemical G&quot;</bucket>
+              <bucket>&quot;Chemical F&quot;</bucket>
+              <bucket>&quot;Chemical D&quot;</bucket>
+              <bucket>&quot;Chemical I&quot;</bucket>
+              <bucket>&quot;Chemical H&quot;</bucket>
+              <bucket>&quot;Chemical K&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='598' />
+            <format attr='width' value='573' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.16t58k31g2m2gq1b3258t08082sc].[none:Product ID:nk]' />
+              <wedge-size column='[federated.16t58k31g2m2gq1b3258t08082sc].[pcto:sum:Revenue (total):qk:2]' />
+              <size column='[federated.16t58k31g2m2gq1b3258t08082sc].[pcto:sum:Revenue (total):qk:2]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.7251380681991577' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <mark-labels>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.16t58k31g2m2gq1b3258t08082sc].[none:Product ID:nk]</field>
+                  <field>[federated.16t58k31g2m2gq1b3258t08082sc].[pcto:sum:Revenue (total):qk:2]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Chemical A&quot;</value>
+                <value>0.020096527310103224</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{E28E519E-B50F-4BE9-B146-4FDD028A3E90}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Market Data+ (1564687817_ChemCorp_Sales_Data_Jan15_Dec15)' name='federated.16t58k31g2m2gq1b3258t08082sc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16t58k31g2m2gq1b3258t08082sc'>
+            <column caption='Total Sold' datatype='real' name='[Calculation_850898905156603906]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Price (per unit)]*[Quantity]' />
+            </column>
+            <column datatype='real' name='[Price (per unit)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Product ID]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Quantity]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Revenue (total)]' role='measure' type='quantitative' />
+            <column-instance column='[Product ID]' derivation='None' name='[none:Product ID:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_850898905156603906]' derivation='Sum' name='[sum:Calculation_850898905156603906:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Revenue (total)]' derivation='Sum' name='[sum:Revenue (total):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.16t58k31g2m2gq1b3258t08082sc].[none:Product ID:nk]' />
+              <text column='[federated.16t58k31g2m2gq1b3258t08082sc].[sum:Revenue (total):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.16t58k31g2m2gq1b3258t08082sc].[sum:Calculation_850898905156603906:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{1A03766F-1D85-4E6A-97D8-D7F67C8C27FC}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Business Type'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.16t58k31g2m2gq1b3258t08082sc].[none:Product ID:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6104E9BB-8C32-4D5F-9746-E25787B3159A}' />
+    </window>
+    <window class='worksheet' name='Date of Sales per category '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{31E3A507-6AEE-4699-AF07-4883CB037FFF}' />
+    </window>
+    <window class='worksheet' name='Customer per Chemical'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.16t58k31g2m2gq1b3258t08082sc].[none:Product ID:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{112AC176-ABB3-4BC9-BE63-08157D24200D}' />
+    </window>
+    <window class='worksheet' name='Chemical by Region Qty'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.16t58k31g2m2gq1b3258t08082sc].[none:Product ID:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F0DDA45D-8C99-4946-AB6E-440EE0F6907B}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.16t58k31g2m2gq1b3258t08082sc].[none:Product ID:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{581ED899-A24F-4E3D-86B0-BC4B9BDF3112}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Region that bought most Chemical'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.16t58k31g2m2gq1b3258t08082sc].[none:Product ID:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1911BFA3-6ECA-492A-B0FB-FA51E9955677}' />
+    </window>
+    <window class='worksheet' name='Revenue of Product sold most'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='300'>
+            <card pane-specification-id='0' param='[federated.16t58k31g2m2gq1b3258t08082sc].[none:Product ID:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.16t58k31g2m2gq1b3258t08082sc].[pcto:sum:Revenue (total):qk:2]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D1990B38-17DE-4275-BE7C-41CADDA6DF58}' />
+    </window>
+  </windows>
+</workbook>

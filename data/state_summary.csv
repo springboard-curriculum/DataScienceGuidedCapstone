@@ -1,4 +1,4 @@
-state,resorts_per_state,state_total_skiable_area_ac,state_total_days_open,state_total_terrain_parks,state_total_nightskiing_ac,state_population,state_area_sq_miles,total_area,land_area,water_area,pct_water
+state,resorts_per_state,state_total_skiable_area_ac,state_total_days_open,state_total_terrain_parks,state_total_nightskiing_ac,state_population,state_area_sq_miles,total_area,state_land_area_sq_miles,state_water_area_sq_miles,pct_water
 Alaska,3,2280.0,345.0,4.0,580.0,731545,665384,656424.0,570374.0,86051.0,0.1310905756035733
 Arizona,2,1577.0,237.0,6.0,80.0,7278717,113990,114006.0,113642.0,364.0,0.003192814413276494
 California,21,25948.0,2738.0,81.0,587.0,39512223,163695,163707.0,155973.0,7734.0,0.04724294013084352

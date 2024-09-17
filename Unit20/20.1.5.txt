@@ -1,0 +1,12 @@
+FUNDAMENTAL QUESTION
+
+what is goal
+	predict future
+	explain and unerstand phenomenon
+	test a hypothesis
+	compare 2 groups
+	dimension reduction
+	build good recommendation system
+	decide on a course of action or policy
+	
+

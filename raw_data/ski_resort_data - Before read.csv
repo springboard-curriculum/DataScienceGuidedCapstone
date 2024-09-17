@@ -1,0 +1,331 @@
+Name,Region,state,summit_elev,vertical_drop,base_elev,trams,fastEight,fastSixes,fastQuads,quad,triple,double,surface,total_chairs,Runs,TerrainParks,LongestRun_mi,SkiableTerrain_ac,Snow Making_ac,daysOpenLastYear,yearsOpen,averageSnowfall,AdultWeekday,AdultWeekend,projectedDaysOpen,NightSkiing_ac
+Alyeska Resort,Alaska,Alaska,3939,2500,250,1,0,0,2,2,0,0,2,7,76,2,1,1610,113,150,60,669,65,85,150,550
+Eaglecrest Ski Area,Alaska,Alaska,2600,1540,1200,0,0,0,0,0,0,4,0,4,36,1,2,640,60,45,44,350,47,53,90,
+Hilltop Ski Area,Alaska,Alaska,2090,294,1796,0,0,0,0,0,1,0,2,3,13,1,1,30,30,150,36,69,30,34,152,30
+Arizona Snowbowl,Arizona,Arizona,11500,2300,9200,0,0,1,0,2,2,1,2,8,55,4,2,777,104,122,81,260,89,89,122,
+Sunrise Park Resort,Arizona,Arizona,11100,1800,9200,0,,0,1,2,3,1,0,7,65,2,1.2,800,80,115,49,250,74,78,104,80
+Yosemite Ski & Snowboard Area,Northern California,California,7800,600,7200,0,0,0,0,0,1,3,1,5,10,2,0.4,88,,110,84,300,47,47,107,
+Bear Mountain,Sierra Nevada,California,8805,1665,7140,0,0,0,2,1,2,3,4,12,27,14,1.5,198,198,122,76,100,,,130,
+Bear Valley,Sierra Nevada,California,8500,1900,6600,0,0,1,1,0,2,4,2,10,67,2,1.2,1680,100,165,52,359,,,151,
+Boreal Mountain Resort,Sierra Nevada,California,7700,500,7200,0,0,0,1,1,3,1,2,8,33,6,1,380,200,150,54,400,49,,150,200
+Dodge Ridge,Sierra Nevada,California,8200,1600,6600,0,0,0,0,1,2,5,4,12,67,5,2,862,,,69,350,78,78,140,
+Donner Ski Ranch,Sierra Nevada,California,8012,750,7031,0,0,0,0,0,1,5,2,8,52,2,1.5,505,60,163,82,400,75,75,170,
+Heavenly Mountain Resort,Sierra Nevada,California,10067,3500,7170,2,0,2,7,1,5,3,8,28,97,3,5.5,4800,3379,155,64,360,,,157,
+June Mountain,Sierra Nevada,California,10090,2590,7545,0,,0,2,0,0,4,1,7,41,2,2,1500,,,58,250,,,128,
+Kirkwood,Sierra Nevada,California,9800,2000,7800,0,0,0,2,1,5,1,3,12,85,2,2.5,2300,200,200,47,354,,,167,
+Mammoth Mountain Ski Area,Sierra Nevada,California,11053,3100,7953,3,0,2,9,1,6,4,0,25,154,7,3,3500,700,243,66,400,149,159,,
+Mt. Shasta Ski Park,Sierra Nevada,California,6890,1435,5500,0,,0,0,0,3,0,1,4,32,2,1.1,425,225,140,34,300,49,59,130,
+Mountain High,Sierra Nevada,California,8200,1600,6600,0,,0,2,2,2,5,3,14,59,1,1.6,290,275,118,95,108,84,84,150,73
+Mt. Baldy,Sierra Nevada,California,8600,2100,6500,0,,0,0,0,0,4,0,4,26,,2.5,400,80,175,67,178,69,69,200,
+Northstar California,Sierra Nevada,California,8610,2280,6330,2,0,1,7,1,2,0,7,20,100,9,1.4,3170,1500,135,47,350,,,150,
+Sierra-at-Tahoe,Sierra Nevada,California,8852,2212,6640,0,,0,3,0,1,5,5,14,46,6,2.5,2000,200,160,73,460,99,,144,
+Ski China Peak,Sierra Nevada,California,8709,1679,7030,0,0,0,0,1,4,2,4,11,45,1,2.2,1400,150,140,62,300,83,83,144,
+Snow Summit,Sierra Nevada,California,8200,1200,7000,0,0,0,2,0,4,5,5,16,27,6,1.2,240,240,,67,100,,,130,150
+Snow Valley,Sierra Nevada,California,7841,1041,6800,0,,0,0,0,5,6,1,12,28,6,1.2,240,188,111,82,160,69,79,143,164
+Soda Springs,Sierra Nevada,California,7352,652,6700,0,,0,0,0,1,1,2,4,18,,0.4,200,20,150,83,400,50,50,144,
+Sugar Bowl Resort,Sierra Nevada,California,8383,1500,6883,1,0,0,5,3,1,0,2,12,105,3,3,1650,375,151,80,500,125,125,150,
+Tahoe Donner,Sierra Nevada,California,7350,600,6750,0,0,0,0,1,1,0,3,5,14,2,1,120,,150,48,400,69,69,144,
+Arapahoe Basin Ski Area,Colorado,Colorado,13050,2530,10780,0,0,0,1,2,1,2,3,9,145,3,1.5,1428,125,230,73,350,85,85,233,
+Aspen / Snowmass,Colorado,Colorado,12510,4406,8104,3,0,1,15,4,3,5,9,40,336,10,5.3,5517,658,138,72,300,179,179,138,
+Beaver Creek,Colorado,Colorado,11440,3340,8100,2,0,0,11,0,1,1,9,24,150,3,2.8,1832,650,145,39,323,,,138,
+Breckenridge,Colorado,Colorado,12998,3398,9600,1,0,5,6,0,1,6,15,34,187,4,3.5,2908,600,182,58,300,,,163,
+Copper Mountain Resort,Colorado,Colorado,12313,2738,9712,1,0,2,4,0,4,4,9,24,150,6,1.7,2527,364,164,47,300,158,158,164,
+Crested Butte Mountain Resort,Colorado,Colorado,12162,3062,9375,0,0,0,4,2,2,1,5,14,121,4,2.6,1547,297,145,58,234,,,131,
+Purgatory,Colorado,Colorado,10822,2029,8793,0,0,1,2,0,3,3,3,12,101,9,1.3,1605,250,130,54,260,89,89,130,
+Eldora Mountain Resort,Colorado,Colorado,10600,1400,9200,0,0,1,0,2,1,3,3,10,65,8,3,680,680,147,57,311,,,150,
+Howelsen Hill,Colorado,Colorado,7136,440,6696,0,,0,0,0,0,1,3,4,17,1,6,50,25,100,104,150,25,25,100,10
+Keystone,Colorado,Colorado,12408,3128,9280,2,0,2,4,1,1,2,8,20,128,1,3.5,3148,662,184,49,235,,,,288
+Loveland,Colorado,Colorado,13010,2210,10800,0,0,0,1,3,3,2,1,10,94,1,2,1800,240,205,82,422,79,79,184,
+Monarch Mountain,Colorado,Colorado,11952,1162,10790,0,0,0,0,1,0,4,2,7,64,2,1,800,,143,80,350,89,89,136,
+Powderhorn,Colorado,Colorado,9850,1650,8200,0,0,0,1,0,0,2,2,5,42,2,1.5,1600,42,111,53,250,71,71,110,
+Silverton Mountain,Colorado,Colorado,13487,3087,10400,0,0,0,0,0,0,1,0,1,,,1.5,26819,,175,17,400,79,79,181,
+Cooper,Colorado,Colorado,11700,1200,10500,0,0,0,0,0,1,1,2,4,41,1,1,400,,130,74,260,56,56,130,
+Ski Granby Ranch,Colorado,Colorado,9202,1000,8202,0,0,0,2,0,1,1,1,5,40,1,0.6,406,170,116,36,220,84,84,92,100
+Steamboat,Colorado,Colorado,10568,3668,6900,1,0,1,6,0,5,2,3,18,169,4,3,2965,375,145,56,336,,,145,30
+Sunlight Mountain Resort,Colorado,Colorado,9895,2010,7885,0,0,0,0,0,1,2,0,3,67,1,2.5,680,30,100,53,250,65,65,135,
+Telluride,Colorado,Colorado,13150,4425,8725,2,0,0,6,1,2,2,4,17,148,3,4.6,2000,220,131,47,280,139,139,137,
+Vail,Colorado,Colorado,11570,3450,8120,2,0,3,15,1,1,0,9,31,195,3,4,5289,461,149,57,354,,,142,
+Winter Park Resort,Colorado,Colorado,12060,3060,9000,1,0,2,7,0,4,6,5,25,166,7,4.9,3081,313,158,79,360,,,151,
+Wolf Creek Ski Area,Colorado,Colorado,11904,1604,10300,0,0,0,3,1,2,1,3,10,120,,2,1600,5,130,80,430,72,72,150,
+Mohawk Mountain,Connecticut,Connecticut,1600,650,950,0,,0,0,0,5,0,3,8,25,,1.5,107,100,,72,92,30,65,110,64
+Mount Southington Ski Area,Connecticut,Connecticut,525,425,100,0,,0,0,0,2,2,3,7,14,2,0.3,51,51,63,55,80,60,60,95,51
+Powder Ridge Park,Connecticut,Connecticut,720,550,170,0,0,0,0,0,1,2,2,5,19,4,0.5,80,68,80,60,80,45,55,100,40
+Ski Sundown,Connecticut,Connecticut,1075,625,450,0,0,0,0,0,3,0,2,5,16,2,1,70,70,84,50,45,62,62,95,66
+Woodbury Ski Area,Connecticut,Connecticut,730,300,430,0,,0,0,0,0,1,4,5,12,2,0.2,50,50,126,57,70,42,42,180,35
+Bogus Basin,Idaho,Idaho,7582,1800,5800,0,,0,3,0,1,3,4,11,91,3,1.5,2600,,134,77,250,64,64,130,165
+Brundage Mountain Resort,Idaho,Idaho,7640,1800,5840,0,,0,1,0,4,0,1,6,51,2,3.2,1920,2,126,58,320,70,70,,
+Kelly Canyon Ski Area,Idaho,Idaho,6600,1000,5600,0,,0,0,0,0,4,2,6,51,1,1.3,740,,,62,200,,42,,
+Lookout Pass Ski Area,Idaho,Idaho,5650,1150,4500,0,0,0,0,0,1,3,0,4,35,2,1.5,540,,113,84,400,44,47,140,
+Magic Mountain Ski Area,Idaho,Idaho,7200,700,6500,0,,0,0,0,0,1,2,3,11,,1.5,280,,65,81,180,32,32,70,
+Pebble Creek Ski Area,Idaho,Idaho,8560,2200,6360,0,0,0,0,0,3,0,0,3,54,2,1.3,1100,30,85,70,250,47,47,91,30
+Pomerelle Mountain Resort,Idaho,Idaho,9000,1000,8000,0,,0,0,0,1,1,1,3,24,2,1.5,500,50,138,56,500,,,138,100
+Schweitzer,Idaho,Idaho,6400,2400,4000,0,0,1,2,0,1,3,2,9,92,3,2.1,2900,47,136,56,300,81,81,,100
+Silver Mountain,Idaho,Idaho,6300,2200,4100,1,0,0,0,1,2,2,1,7,80,2,2.5,1600,225,130,29,300,57,62,193,20
+Soldier Mountain Ski Area,Idaho,Idaho,7200,1400,5800,0,,0,0,0,0,2,1,3,36,,0.4,1142,,60,71,,43,43,,
+Sun Valley,Idaho,Idaho,9150,3400,5750,1,0,0,9,0,3,2,3,18,120,7,3,2054,645,149,83,220,,,137,
+Tamarack Resort,Idaho,Idaho,7700,2800,4900,0,0,0,2,2,0,0,2,6,48,3,1.5,1020,200,,15,300,71,71,150,
+Chestnut Mountain Resort,Illinois,Illinois,1040,475,565,0,,0,0,2,4,0,3,9,22,3,0.2,139,139,87,60,50,40,55,112,139
+Four Lakes,Illinois,Illinois,500,100,400,0,,0,0,0,0,0,7,7,7,1,0.1,9,9,78,58,24,,,70,9
+Ski Snowstar Winter Sports Park,Illinois,Illinois,790,262,528,0,,0,0,2,0,2,2,6,15,1,0.8,28,28,56,38,38,25,35,86,28
+Villa Olivia,Illinois,Illinois,500,180,320,0,,0,0,1,0,0,6,7,7,1,0.1,15,15,,53,25,40,40,70,15
+Paoli Peaks,Indiana,Indiana,900,300,600,0,0,0,1,1,3,1,2,8,15,2,0.4,65,65,75,41,18,38,45,80,65
+Perfect North Slopes,Indiana,Indiana,800,400,400,0,,0,0,2,3,0,6,11,23,2,1,100,100,82,39,24,52,52,90,100
+Mt. Crescent Ski Area,Iowa,Iowa,1500,300,1200,0,,0,0,1,0,1,0,2,11,1,0.2,50,50,,58,30,29,39,,50
+Seven Oaks,Iowa,Iowa,975,275,800,0,0,0,0,0,2,0,2,4,11,2,1,35,35,100,22,40,40,40,100,35
+Sundown Mountain,Iowa,Iowa,1059,475,584,0,,0,0,1,1,2,2,6,21,2,0.6,55,55,,46,45,38,46,,55
+Big Squaw Mountain Ski Resort,Maine,Maine,3200,660,1750,0,,0,0,0,1,0,0,1,29,,0.8,,,67,6,,30,30,58,
+Camden Snow Bowl,Maine,Maine,1080,850,150,0,,0,0,0,1,1,1,3,26,2,1,100,48,68,83,69,33,43,70,48
+Lost Valley,Maine,Maine,495,240,255,0,,0,0,0,0,2,2,4,22,2,0.3,45,45,87,58,50,29,55,104,45
+Mt. Abram Ski Resort,Maine,Maine,2250,1150,1050,0,0,0,0,0,0,2,3,5,54,1,0.5,640,175,120,59,125,29,49,120,
+Mt. Jefferson,Maine,Maine,753,432,351,0,,0,0,0,0,0,3,3,10,,0.3,12,,,19,,,,,
+New Hermon Mountain,Maine,Maine,450,350,100,0,,0,0,0,0,1,2,3,20,,1.9,70,70,102,55,90,32,32,117,45
+Shawnee Peak,Maine,Maine,1900,1350,600,0,,0,0,1,2,1,2,6,43,3,0.8,239,234,97,81,110,55,75,103,110
+Sugarloaf,Maine,Maine,4237,2820,1417,0,0,0,2,3,1,5,2,13,162,4,3.5,1240,618,159,68,200,99,99,155,
+Sunday River,Maine,Maine,3140,2340,800,1,0,0,4,5,3,1,1,15,135,5,3,870,552,165,60,167,105,105,169,140
+Wisp,Maryland,Maryland,3115,700,2415,0,,0,0,2,5,0,5,12,34,3,1.5,172,118,121,64,100,59,79,120,118
+Berkshire East,Massachusetts,Massachusetts,1720,1180,540,0,,0,0,2,1,1,2,6,47,2,2,180,165,120,68,120,48,68,120,80
+Blandford Ski Area,Massachusetts,Massachusetts,1685,465,1035,0,0,0,0,0,0,3,2,5,29,2,0.5,132,70,,83,50,20,45,,70
+Blue Hills Ski Area,Massachusetts,Massachusetts,635,309,326,0,0,0,0,0,0,1,3,4,16,1,,60,60,,19,,40,45,,
+Bousquet Ski Area,Massachusetts,Massachusetts,1875,750,1125,0,,0,0,0,0,3,2,5,23,1,1,200,98,,19,83,25,49,,100
+Bradford Ski Area,Massachusetts,Massachusetts,1548,248,1300,0,,0,0,0,2,0,8,10,15,1,0.3,48,48,,71,,37,55,,
+Jiminy Peak,Massachusetts,Massachusetts,2380,1150,1230,0,0,1,0,2,3,1,2,9,45,3,2,167,163,121,71,90,81,81,120,104
+Nashoba Valley,Massachusetts,Massachusetts,440,240,200,0,,0,0,0,3,1,7,11,17,2,0.5,52,52,112,55,55,48,58,126,52
+Otis Ridge Ski Area,Massachusetts,Massachusetts,1700,400,1300,0,,0,0,0,0,1,3,4,11,1,1,60,55,106,73,70,20,40,106,35
+Ski Butternut,Massachusetts,Massachusetts,1800,1000,800,0,0,0,0,3,1,1,6,11,22,2,1.5,110,110,107,56,115,25,60,110,
+Ski Ward,Massachusetts,Massachusetts,420,210,210,0,0,0,0,0,1,0,3,4,11,1,0.2,45,45,105,50,80,,,120,38
+Wachusett Mountain Ski Area,Massachusetts,Massachusetts,2006,1000,1006,0,0,0,3,0,1,0,4,8,27,2,1.5,112,112,,57,100,65,71,120,104
+Alpine Valley Ski Area,Michigan,Michigan,500,240,126,0,,0,0,1,2,5,6,14,25,3,0.2,100,100,,57,20,39,47,,100
+Apple Mountain,Michigan,Michigan,820,220,600,0,0,0,0,1,0,0,5,6,12,,,80,42,,58,52,35,35,,80
+Big Powderhorn Mountain,Michigan,Michigan,1800,600,1200,0,0,0,0,0,0,9,1,10,45,2,1,253,228,100,55,214,69,69,108,
+Bittersweet Ski Area,Michigan,Michigan,850,350,450,0,0,0,0,1,7,0,4,12,20,2,0.2,100,100,80,36,90,38,48,,100
+Big Snow Resort - Blackjack,Michigan,Michigan,850,465,385,0,0,0,0,0,0,4,2,6,26,2,1,170,86,95,42,210,49,65,115,
+Boyne Highlands,Michigan,Michigan,1290,552,745,0,,0,1,3,4,0,2,10,55,4,1.2,435,400,97,56,140,78,98,120,150
+Boyne Mountain Resort,Michigan,Michigan,1120,500,620,0,,1,0,4,3,2,2,12,60,7,1,415,380,122,71,140,,,130,200
+Caberfae Peaks,Michigan,Michigan,1569,485,1060,0,,0,0,1,2,1,1,5,34,2,1.2,200,200,118,82,140,39,49,130,150
+Cannonsburg,Michigan,Michigan,1100,250,850,0,,0,0,1,1,1,7,10,21,5,0.1,100,,100,54,100,30,37,100,
+Crystal Mountain,Michigan,Michigan,1132,375,757,0,0,0,1,3,2,0,2,8,58,3,0.3,102,96,120,63,132,54,64,135,56
+Big Snow Resort - Indianhead Mountain,Michigan,Michigan,1935,638,1297,0,,0,0,1,1,5,2,9,32,2,1,240,150,120,60,204,49,49,120,
+Marquette Mountain,Michigan,Michigan,1357,600,757,0,,0,0,0,1,2,1,4,35,3,0.7,169,143,139,60,210,,,135,89
+Mont Ripley,Michigan,Michigan,1140,440,700,0,,0,0,0,0,2,2,4,25,2,0.8,112,112,114,83,275,49,49,100,100
+Mount Bohemia,Michigan,Michigan,1500,900,600,0,,0,0,0,1,1,0,2,,,2.3,585,,83,19,273,68,68,100,
+Mt. Brighton,Michigan,Michigan,1330,230,1100,0,,0,0,2,3,0,8,13,25,5,0.1,130,130,111,59,60,52,59,100,130
+Mt. Holiday Ski Area,Michigan,Michigan,440,200,240,0,,0,0,0,0,2,2,4,12,,0.1,45,45,100,70,120,22,34,90,45
+Mount Holly,Michigan,Michigan,1105,350,755,0,0,0,1,2,3,1,6,13,19,,0.1,100,100,,63,42,37,45,102,100
+Mulligan's Hollow Ski Bowl,Michigan,Michigan,700,130,570,0,,0,0,0,0,0,5,5,6,,0.2,10,10,,19,60,15,20,,10
+Norway Mountain,Michigan,Michigan,1335,500,835,0,,0,0,0,1,2,3,6,17,1,1.4,186,186,110,45,100,,45,110,40
+Nubs Nob Ski Area,Michigan,Michigan,1338,427,911,0,,0,0,3,4,2,1,10,53,3,0.9,248,248,133,61,135,65,85,130,160
+Pine Knob Ski Resort,Michigan,Michigan,1308,300,1009,0,0,0,0,0,0,0,6,6,14,3,1,80,80,,2019,,49,57,,
+Pine Mountain,Michigan,Michigan,1650,500,1150,0,0,0,0,0,1,2,1,4,28,1,0.5,160,160,110,80,60,,45,126,80
+Schuss Mountain at Shanty Creek,Michigan,Michigan,1125,450,675,0,0,0,0,5,0,0,3,8,42,3,1,70,70,94,57,160,58,78,111,70
+Ski Brule,Michigan,Michigan,1860,500,1360,0,0,0,0,0,0,5,7,12,17,3,1,150,150,164,62,150,49,49,165,40
+Snow Snake Mountain Ski Area,Michigan,Michigan,1230,210,1020,0,,0,0,0,1,0,5,6,12,2,0,40,40,,72,,30,35,,40
+Swiss Valley,Michigan,Michigan,1200,225,975,0,,0,0,2,1,0,4,7,11,2,0.1,60,60,89,51,60,32,42,80,60
+The Homestead,Michigan,Michigan,900,320,580,0,,0,0,0,2,1,2,5,15,1,0.2,16,16,47,34,150,50,50,42,16
+Timber Ridge,Michigan,Michigan,850,250,600,0,,0,0,1,1,2,4,8,16,2,0.3,50,50,80,58,,35,45,,50
+Treetops Resort,Michigan,Michigan,1345,225,1120,0,,0,0,0,3,0,2,5,23,3,0.2,80,80,63,65,175,,,101,80
+Afton Alps,Minnesota,Minnesota,1530,350,1180,0,0,0,0,1,3,14,4,22,48,5,0.5,250,250,135,56,60,55,60,135,250
+Andes Tower Hills Ski Area,Minnesota,Minnesota,1620,290,1330,0,0,0,0,1,2,0,3,6,15,2,0.2,35,35,100,38,55,45,45,110,35
+Buck Hill,Minnesota,Minnesota,1225,309,919,0,,0,0,2,1,0,5,8,16,,0.2,45,45,115,65,60,34,47,112,45
+Buena Vista Ski Area,Minnesota,Minnesota,1510,230,1280,0,,0,0,0,2,2,2,6,17,,0.3,30,30,57,70,78,44,44,60,30
+Coffee Mill Ski & Snowboard Resort,Minnesota,Minnesota,1150,425,725,0,0,0,0,0,0,2,1,3,14,1,1,40,35,57,39,48,23,37,56,35
+Elm Creek Winter Recreation Area,Minnesota,Minnesota,928,60,868,0,,0,0,0,0,0,3,3,3,,1,15,20,105,13,45,17,17,102,15
+Giants Ridge Resort,Minnesota,Minnesota,1972,500,1472,0,,0,1,1,1,2,2,7,35,2,0.8,202,202,120,35,85,49,58,125,121
+Hyland Ski & Snowboard Area,Minnesota,Minnesota,1075,175,900,0,0,0,0,2,1,0,5,8,14,1,1,35,35,110,61,55,35.34,35.34,115,35
+Lutsen Mountains,Minnesota,Minnesota,1688,825,800,1,0,1,0,0,1,4,1,8,62,2,2,393,231,135,71,120,84,84,127,
+Mount Kato Ski Area,Minnesota,Minnesota,540,240,300,0,,0,0,5,0,3,2,10,19,4,1,55,55,115,43,50,34,46,120,50
+Powder Ridge Ski Area,Minnesota,Minnesota,790,300,500,0,,0,0,1,0,2,3,6,15,4,,60,60,97,58,45,36,48,113,60
+Spirit Mountain,Minnesota,Minnesota,1320,700,620,0,,0,1,1,2,1,2,7,22,3,1,175,175,100,45,100,59,59,125,144
+Welch Village,Minnesota,Minnesota,1060,360,700,0,,0,0,3,1,4,2,10,50,1,0.8,125,125,114,54,45,54,60,122,100
+Wild Mountain Ski & Snowboard Area,Minnesota,Minnesota,1113,300,813,0,0,0,0,4,0,0,4,8,26,4,0.9,100,100,130,47,50,55,55,140,100
+Hidden Valley Ski Area,Missouri,Missouri,2566,310,2316,0,0,0,0,2,2,0,3,7,17,,0.1,30,30,,37,26,49,49,,17
+Snow Creek,Missouri,Missouri,1100,300,800,0,,0,0,0,2,1,2,5,14,2,0.3,30,30,69,33,20,37,47,85,30
+Big Sky Resort,Montana,Montana,11166,4350,7500,1,1,2,5,3,7,5,12,36,317,8,6,5800,400,144,46,400,,,144,
+Blacktail Mountain Ski Area,Montana,Montana,6676,1440,5236,0,,0,0,0,1,2,1,4,27,,0.7,1000,,,21,250,42,42,,
+Bridger Bowl,Montana,Montana,8700,2600,6100,0,0,0,0,1,6,1,3,11,105,2,1.5,2000,100,122,64,350,63,63,133,
+Discovery Ski Area,Montana,Montana,8150,2380,5770,0,0,0,0,0,5,2,1,8,74,1,1.5,2400,25,116,46,225,49,49,116,
+Great Divide,Montana,Montana,7330,1580,5750,0,0,0,0,0,0,5,1,6,110,6,3,1600,150,94,78,180,48,48,100,100
+Lost Trail - Powder Mtn,Montana,Montana,8200,1800,6400,0,,0,0,0,0,5,3,8,69,2,2.5,1800,,84,81,325,46,46,80,
+Maverick Mountain,Montana,Montana,8520,2020,6500,0,,0,0,0,0,1,1,2,22,,1.3,255,,,83,160,39,39,,
+Montana Snowbowl,Montana,Montana,7600,2600,5000,0,,0,0,0,0,2,2,4,37,,1.2,950,20,,58,300,50,50,,10
+Red Lodge Mountain,Montana,Montana,9416,2400,7016,0,0,0,2,0,1,3,1,7,70,2,2.5,1635,496,142,59,250,67,67,136,
+Showdown Montana,Montana,Montana,8200,1400,6800,0,0,0,0,0,1,2,1,4,36,1,1.8,640,,86,83,250,47,47,85,
+Teton Pass Ski Resort,Montana,Montana,7200,1010,6190,0,,0,0,0,0,1,2,3,43,1,3,330,,40,54,250,39,39,150,
+Big Mountain Resort,Montana,Montana,6817,2353,4464,0,0,0,3,2,6,0,3,14,105,4,3.3,3000,600,123,72,333,81,81,123,600
+Diamond Peak,Sierra Nevada,Nevada,8540,1840,6700,0,,0,1,2,0,3,1,7,30,3,2.5,655,492,100,53,300,89,99,122,
+Elko SnoBowl,Nevada,Nevada,7000,700,6300,0,,0,0,0,0,1,1,2,10,,1,60,2,19,23,24,20,20,30,
+Lee Canyon,Nevada,Nevada,11289,860,8510,0,,0,0,2,1,0,0,3,24,1,0.3,195,50,144,56,161,70,70,150,
+Mt. Rose - Ski Tahoe,Sierra Nevada,Nevada,9700,1800,8260,0,0,2,0,2,2,0,2,8,65,5,2.5,1200,330,152,55,350,135,135,150,
+Attitash,New Hampshire,New Hampshire,2350,1750,600,0,,0,2,1,3,2,1,9,68,3,3,311,240,115,54,120,79,89,130,
+Black Mountain,New Hampshire,New Hampshire,2350,1100,1250,0,0,0,0,0,1,1,3,5,45,,1.6,143,120,110,84,125,45,59,107,
+Bretton Woods,New Hampshire,New Hampshire,3100,1500,1600,0,0,0,4,1,1,0,3,9,63,2,2,464,427,180,46,200,85,99,180,45
+Cannon Mountain,New Hampshire,New Hampshire,4080,2180,1900,1,0,0,1,2,3,1,3,11,97,3,2.3,285,192,124,81,160,79,79,143,
+Cranmore Mountain Resort,New Hampshire,New Hampshire,2000,1200,600,0,0,0,1,1,2,1,2,7,57,4,1,200,192,107,82,150,,,128,
+Crotched Mountain,New Hampshire,New Hampshire,2066,1016,1050,0,0,0,1,1,1,1,1,5,25,3,1.2,100,100,105,16,105,55,69,100,100
+Dartmouth Skiway,New Hampshire,New Hampshire,1943,969,974,0,0,0,0,1,0,1,2,4,28,1,1.1,107,54,104,63,100,50,50,105,
+Gunstock,New Hampshire,New Hampshire,2300,1400,900,0,,0,1,2,2,0,1,6,55,4,1.5,227,176,106,82,120,80,92,,60
+King Pine,New Hampshire,New Hampshire,850,350,500,0,,0,0,0,3,0,3,6,17,2,0.3,48,45,105,57,120,42,58,107,23
+Loon Mountain,New Hampshire,New Hampshire,3050,2100,950,1,,0,3,1,1,3,2,11,61,6,2.5,370,322,149,53,160,,,144,
+Mount Sunapee,New Hampshire,New Hampshire,2743,1510,1233,0,,0,2,1,2,1,4,10,66,4,0.8,232,215,130,71,100,83,93,136,
+Pats Peak,New Hampshire,New Hampshire,1460,770,690,0,,0,0,0,4,2,5,11,28,3,1.5,115,115,109,56,100,58,72,112,93
+Ragged Mountain Resort,New Hampshire,New Hampshire,2250,1250,1000,0,,1,1,0,1,0,3,6,57,3,0.7,250,200,,54,100,74,84,140,
+Waterville Valley,New Hampshire,New Hampshire,4004,2020,1984,0,,0,2,0,2,3,4,11,62,4,1.9,265,220,142,54,148,79,93,142,
+Whaleback Mountain,New Hampshire,New Hampshire,1800,700,1100,0,,0,0,0,0,1,3,4,30,1,1,85,60,105,64,110,30,45,105,55
+Wildcat Mountain,New Hampshire,New Hampshire,4062,2112,1950,0,,0,1,0,3,0,1,5,48,,2.8,225,200,156,61,200,79,89,150,
+Campgaw Mountain,New Jersey,New Jersey,726,274,450,0,,0,0,0,0,2,3,5,12,1,0.3,23,23,80,58,45,,,,14
+Mountain Creek Resort,New Jersey,New Jersey,1480,1040,440,1,,0,2,2,1,1,3,10,46,3,2,167,167,90,54,65,79.99,79.99,100,167
+Angel Fire Resort,New Mexico,New Mexico,10677,2077,8600,0,0,0,2,0,0,3,2,7,81,3,3,560,230,101,53,210,77,77,101,50
+Enchanted Forest Ski Area,New Mexico,New Mexico,10078,400,9820,0,,0,0,0,0,0,0,0,33,,2.5,600,,130,34,240,20,20,140,
+Pajarito Mountain Ski Area,New Mexico,New Mexico,10441,1410,9031,0,,0,0,1,1,3,1,6,45,2,0.6,750,35,89,62,163,49,49,117,
+Red River,New Mexico,New Mexico,10350,1600,8750,0,0,0,0,1,3,1,2,7,63,3,2.5,209,,110,60,214,79,79,,
+Sandia Peak,New Mexico,New Mexico,10378,1700,8678,0,,0,0,0,0,4,1,5,39,1,2,200,30,32,82,100,55,55,38,
+Sipapu Ski Resort,New Mexico,New Mexico,9255,1055,8200,0,,0,0,1,2,0,3,6,42,4,0.5,200,140,127,67,190,47,47,143,
+Ski Apache,New Mexico,New Mexico,11500,1900,9600,1,,0,0,2,6,0,2,11,55,3,2,750,270,133,58,185,74,74,124,
+Ski Santa Fe,New Mexico,New Mexico,12075,1725,10350,0,0,0,0,1,2,2,2,7,83,1,3,660,275,107,73,225,80,80,130,
+Taos Ski Valley,New Mexico,New Mexico,12481,3281,9200,1,0,0,1,3,4,1,4,14,111,1,5,1294,647,137,64,300,110,110,136,
+Belleayre,New York,New York,3429,1404,2025,1,0,0,1,1,1,2,2,8,50,2,2.2,175,168,154,70,130,60,72,150,
+Brantling Ski Slopes,New York,New York,850,250,600,0,,0,0,0,0,0,5,5,10,,0.1,20,16,,19,110,32,32,,
+Bristol Mountain,New York,New York,2200,1200,1000,0,0,0,2,1,1,1,1,6,34,3,2,160,148,129,55,60,65,76,129,154
+Buffalo Ski Club Ski Area,New York,New York,3429,500,2025,0,0,0,0,0,0,2,4,6,43,1,,225,150,,12,,35,50,,100
+Catamount,New York,New York,2000,1000,1000,0,,0,0,1,1,2,3,7,36,5,2,133,130,100,80,108,38,69,90,55
+Dry Hill Ski Area,New York,New York,950,300,650,0,,0,0,0,0,1,2,3,7,1,0.2,35,26,,55,125,,35,,26
+Gore Mountain,New York,New York,3600,2537,998,1,0,0,2,2,3,2,4,14,110,7,4.5,439,338,142,55,150,80,88,,15
+Greek Peak,New York,New York,2100,952,1148,0,0,0,0,1,1,4,2,8,56,4,1.5,220,184,110,62,122,49,63.2,113,175
+Holiday Mountain,New York,New York,1550,400,1150,0,0,0,0,1,0,1,2,4,9,,0.4,37,37,75,60,50,27,42,85,37
+Holiday Valley,New York,New York,2250,750,1500,0,,0,3,8,0,0,2,13,60,5,1,290,266,116,62,180,65,78,129,189
+Holimont Ski Area,New York,New York,2260,700,1560,0,,0,1,1,2,3,1,8,53,3,1.5,135,135,110,57,180,62,75,119,
+Hunt Hollow Ski Club,New York,New York,2030,825,1000,0,0,0,0,0,1,1,1,3,19,1,1,400,400,,52,130,48,58,75,400
+Hunter Mountain,New York,New York,3200,1600,1600,0,,2,1,2,2,2,4,13,67,4,2,320,320,148,59,120,79,89,155,
+Kissing Bridge,New York,New York,1700,550,1150,0,,0,0,2,1,4,3,10,39,5,0.5,700,550,103,59,120,40,60,100,650
+Labrador Mt.,New York,New York,1825,700,1125,0,,0,0,0,1,2,1,4,23,1,1,250,237,,62,125,59,59,100,180
+Maple Ski Ridge,New York,New York,1200,450,750,0,0,0,0,0,1,1,1,3,10,,0.3,25,25,,57,,26,38,,20
+McCauley Mountain Ski Center,New York,New York,2250,633,1563,0,0,0,0,0,0,1,4,5,23,1,0.3,70,55,105,61,200,20,30,105,
+Mount Peter Ski Area,New York,New York,1250,450,750,0,,0,0,1,0,2,2,5,14,1,1,69,69,100,83,50,35,54,100,69
+Oak Mountain,New York,New York,2400,650,1750,0,0,0,0,1,0,0,3,4,22,1,1.2,46,18,,71,120,40,40,,12
+Peek'n Peak,New York,New York,1800,400,1400,0,,0,0,0,8,0,2,10,27,4,2.4,110,110,110,55,225,49,63,,110
+Plattekill Mountain,New York,New York,3500,1100,2400,0,,0,0,0,1,1,2,4,38,1,2,110,75,65,26,175,50,67,65,
+Royal Mountain Ski Area,New York,New York,1800,550,1250,0,,0,0,0,0,3,0,3,14,,0.3,35,28,,63,90,45,45,,
+Snow Ridge,New York,New York,2000,650,1350,0,,0,0,0,0,4,2,6,21,2,0.8,130,65,73,74,230,38,48,100,40
+Song Mountain,New York,New York,1940,700,1240,0,,0,0,0,1,1,3,5,24,,0.4,93,70,90,55,125,59,59,122,70
+Swain,New York,New York,1970,650,1320,0,,0,0,3,0,1,1,5,35,3,1,130,90,102,72,120,49,59,100,80
+Thunder Ridge,New York,New York,1270,500,770,0,,0,0,0,1,2,3,6,30,,0.4,100,100,121,60,,,57,121,100
+Titus Mountain,New York,New York,2025,1200,825,0,,0,0,0,2,6,2,10,50,3,2,200,150,101,59,150,39,49,100,70
+Toggenburg Mountain,New York,New York,2000,700,1300,0,,0,0,0,1,1,3,5,22,2,0.4,85,,,66,130,55,55,122,73
+West Mountain,New York,New York,1470,1010,460,0,,0,0,0,1,2,2,5,29,1,0.6,124,105,,58,80,49,59,120,105
+Whiteface Mountain Resort,New York,New York,4650,3430,1220,1,0,0,1,1,2,5,2,12,86,5,2.1,288,220,122,61,168,96,96,141,
+Willard Mountain,New York,New York,1415,505,910,0,,0,0,0,0,2,3,5,16,,0.4,50,35,85,19,80,46,46,120,35
+Windham Mountain,New York,New York,3100,1600,1500,0,0,1,2,0,3,1,5,12,54,6,2,285,280,123,59,105,85,95,130,56
+Woods Valley Ski Area,New York,New York,1400,500,900,0,,0,0,0,0,2,4,6,21,,0.3,25,16,,55,180,31,39,,15
+Appalachian Ski Mountain,North Carolina,North Carolina,4000,365,3635,0,0,0,0,2,0,1,2,5,12,3,0.5,27,27,100,57,50,40,64,100,27
+Cataloochee Ski Area,North Carolina,North Carolina,5400,740,4660,0,0,0,0,1,1,1,2,5,18,2,1,50,50,141,58,50,43,70,108,50
+Sapphire Valley,North Carolina,North Carolina,3450,200,3200,0,,0,0,1,0,0,2,3,,1,1,8,8,53,55,24,40,43,60,8
+Beech Mountain Resort,North Carolina,North Carolina,5506,830,4675,0,0,0,0,3,0,3,2,8,17,1,1,95,95,98,52,31,41,68,,95
+Sugar Mountain Resort,North Carolina,North Carolina,5300,1200,4100,0,0,1,0,0,1,4,2,8,21,1,1.5,125,125,114,50,77,45,75,120,95
+Wolf Ridge Ski Resort,North Carolina,North Carolina,4700,720,4000,0,,0,0,1,0,1,2,4,15,1,0.6,65,65,,49,65,42,65,100,60
+Alpine Valley,Ohio,Ohio,1500,230,1260,0,0,0,0,1,2,1,1,5,11,1,0.2,72,72,105,53,120,43,43,,72
+Boston Mills,Ohio,Ohio,871,264,631,0,,0,0,0,4,2,2,8,7,2,0.3,40,40,92,56,51,44,44,110,40
+Brandywine,Ohio,Ohio,871,240,631,0,,0,0,2,7,2,5,16,11,2,0.3,85,85,92,56,51,44,44,110,85
+Mad River Mountain,Ohio,Ohio,1460,300,1160,0,,0,0,1,2,3,6,12,20,4,0.5,144,144,99,57,36,39,44,90,144
+Snow Trails,Ohio,Ohio,1475,301,1174,0,,0,0,0,4,2,3,9,17,3,0.2,80,80,101,58,50,41,52,70,80
+Anthony Lakes Mountain Resort,Oregon,Oregon,8000,900,7100,0,0,0,0,0,1,0,2,3,21,2,1.5,1100,,75,56,300,40,40,80,
+Cooper Spur,Mt. Hood,Oregon,4000,350,3500,0,,0,0,0,0,1,1,2,10,,0.1,50,,78,66,100,39,39,90,
+Hoodoo Ski Area,Oregon,Oregon,5703,1035,4668,0,0,0,0,3,1,1,0,5,34,,0.4,806,,80,81,350,59,59,108,200
+Mt. Ashland,Oregon,Oregon,7533,1150,6383,0,0,0,0,0,2,2,1,5,23,2,1,220,,94,55,300,45,52,92,40
+Mt. Bachelor,Oregon,Oregon,9065,3365,5700,0,0,0,8,0,3,0,0,11,101,5,4,4318,20,185,61,462,99,99,185,
+Mt. Hood Meadows,Mt. Hood,Oregon,7300,2777,4523,0,,0,6,0,0,5,2,13,85,6,3,2150,,118,51,430,,,160,170
+Mt. Hood Skibowl,Mt. Hood,Oregon,5100,1500,3600,0,,0,0,0,0,4,5,9,65,2,3,960,29,125,82,300,70,70,144,317
+Spout Springs,Oregon,Oregon,5500,610,4850,0,,0,0,0,0,2,2,4,14,,0.1,200,,117,19,118,,,125,100
+Timberline Lodge,Mt. Hood,Oregon,8540,3690,6000,0,0,0,5,0,1,1,1,8,41,5,2,1415,,305,82,550,,,305,300
+Willamette Pass,Oregon,Oregon,6683,1563,5120,0,0,1,0,0,3,0,1,5,29,,2.1,555,60,3,78,430,60,60,100,
+Bear Creek Mountain Resort,Pennsylvania,Pennsylvania,1100,510,600,0,,0,0,3,1,0,2,6,23,3,1,86,86,91,52,30,50,60,90,86
+Ski Big Bear,Pennsylvania,Pennsylvania,1250,650,600,0,0,0,0,0,0,4,2,6,18,1,1.5,26,26,75,43,69,50,62,75,26
+Big Boulder,Pennsylvania,Pennsylvania,2175,600,1700,0,0,0,0,0,2,5,1,8,16,8,,55,55,76,72,50,50,65,95,55
+Blue Knob,Pennsylvania,Pennsylvania,3146,1072,2074,0,0,0,0,0,2,2,2,6,34,1,2,100,84,87,56,120,43,68,105,42
+Blue Mountain Resort,Pennsylvania,Pennsylvania,1600,1082,460,0,0,1,1,1,1,3,9,16,39,5,1.2,164,164,122,42,33,55,65,112,164
+Camelback Mountain Resort,Pennsylvania,Pennsylvania,2100,800,1250,0,,0,2,0,3,5,6,16,37,5,1,166,166,100,56,50,55,70,100,160
+Eagle Rock,Pennsylvania,Pennsylvania,1810,550,1260,0,,0,0,0,0,3,0,3,14,1,1,,,,47,,,,40,
+Elk Mountain Ski Resort,Pennsylvania,Pennsylvania,2693,1000,1693,0,,0,0,1,0,5,1,7,27,2,0.7,180,146,,60,60,55,69,100,90
+Jack Frost,Pennsylvania,Pennsylvania,2000,600,1400,0,,0,0,1,2,5,1,9,20,1,1,100,100,96,47,50,50,65,105,
+Liberty,Pennsylvania,Pennsylvania,1190,620,570,0,0,0,0,5,0,0,3,8,16,3,1,100,100,107,54,31,67,77,97,100
+Mount Pleasant of Edinboro,Pennsylvania,Pennsylvania,1540,340,1200,0,,0,0,0,1,0,1,2,10,,0.5,40,35,75,48,100,30,33,90,35
+Roundtop Mountain Resort,Pennsylvania,Pennsylvania,1400,600,800,0,0,0,0,3,2,0,3,8,20,2,0.4,103,103,,55,30,63,73,,100
+Seven Springs,Pennsylvania,Pennsylvania,2994,750,2240,0,,2,0,3,5,0,4,14,33,7,1.2,285,285,99,87,135,67,87,115,200
+Shawnee Mountain Ski Area,Pennsylvania,Pennsylvania,1350,700,650,0,0,0,1,1,0,4,4,10,23,2,1.6,125,125,100,44,50,55,65,122,120
+Ski Sawmill,Pennsylvania,Pennsylvania,2215,515,1700,0,0,0,0,0,1,1,3,5,14,1,0.1,15,13,,50,24,30,44,90,15
+Montage Mountain,Pennsylvania,Pennsylvania,1960,1000,960,0,,0,0,1,3,1,2,7,26,1,1.2,140,140,60,35,47,67,,90,140
+Spring Mountain Ski Area,Pennsylvania,Pennsylvania,528,450,78,0,0,0,0,0,1,3,2,6,9,1,0.2,45,45,100,56,20,,,100,45
+Tussey Mountain,Pennsylvania,Pennsylvania,1750,520,1230,0,,0,0,1,0,1,3,5,8,1,0.3,38,30,100,39,41,40,45,100,30
+Whitetail Resort,Pennsylvania,Pennsylvania,1800,935,865,0,,0,1,3,0,2,2,8,23,2,1,120,120,116,28,40,69,71,100,120
+Yawgoo Valley,Rhode Island,Rhode Island,315,245,70,0,,0,0,0,0,2,2,4,13,1,0.2,30,30,100,54,40,,,100,30
+Deer Mountain Ski Resort,South Dakota,South Dakota,6850,940,6040,0,0,0,0,0,1,1,2,4,63,2,1.6,500,50,69,51,200,45,45,81,
+Terry Peak Ski Area,South Dakota,South Dakota,7100,1100,5900,0,,0,3,0,1,0,1,5,30,1,1.2,450,225,114,65,150,58,58,120,
+Ober Gatlinburg Ski Resort,Tennessee,Tennessee,3300,600,2700,0,,0,0,2,0,1,1,4,10,1,1,,,83,44,35,36,65,94,
+Alta Ski Area,Salt Lake City,Utah,11068,2538,8530,0,0,0,3,0,1,2,0,6,116,,1.3,2614,140,150,81,545,116,116,140,
+Beaver Mountain,Utah,Utah,8600,1600,7232,0,0,0,0,0,1,3,1,5,48,2,0.8,464,,120,81,400,50,50,120,
+Brian Head Resort,Utah,Utah,10970,1548,9600,0,0,0,1,0,6,1,0,8,71,2,0.6,650,216,149,54,360,42,59,148,
+Brighton Resort,Salt Lake City,Utah,10500,1745,8755,0,,0,3,1,1,0,2,7,66,4,1.2,1050,200,138,83,500,85,85,138,200
+Deer Valley Resort,Salt Lake City,Utah,9570,3000,6570,1,0,0,13,0,5,2,0,21,103,,2.8,2026,660,,39,300,169,169,,
+Eagle Point,Utah,Utah,10600,1500,9100,0,0,0,0,1,1,2,1,5,40,1,0.9,650,,,9,400,45,60,109,
+Park City,Salt Lake City,Utah,10000,3200,6800,4,0,6,10,4,7,4,6,41,341,8,3.5,7300,750,142,56,355,,,143,
+Powder Mountain,Utah,Utah,9422,2522,6900,0,0,0,1,4,1,0,3,9,167,2,3.5,8464,,120,47,500,88,88,146,300
+Snowbasin,Utah,Utah,9350,2900,6450,3,0,1,2,0,3,0,2,11,107,4,3.5,3000,625,143,79,300,115,115,138,
+Snowbird,Salt Lake City,Utah,11000,3240,7760,1,0,0,6,0,0,4,3,14,170,1,2.5,2500,,188,48,500,125,125,180,2
+Solitude Mountain Resort,Salt Lake City,Utah,10488,2494,7994,0,0,0,4,2,1,1,1,9,80,,3,1200,150,161,62,500,109,119,148,
+Sundance,Utah,Utah,8250,2150,6100,0,,0,0,2,2,0,1,5,45,1,0.6,450,112,128,50,320,80,80,129,
+Nordic Valley Resort,Utah,Utah,6400,960,5440,0,0,0,0,0,0,2,2,4,23,1,0.4,140,84,105,51,300,45,50,105,140
+Bolton Valley,Vermont,Vermont,3150,1704,1446,0,0,0,0,2,0,3,1,6,71,3,0.6,300,90,133,53,300,69,79,132,50
+Bromley Mountain,Vermont,Vermont,3284,1334,1950,0,,0,1,1,0,4,3,9,47,1,2.5,178,153,,83,168,87,91,152,
+Burke Mountain,Vermont,Vermont,3267,2011,1210,0,0,0,2,1,0,0,3,6,50,3,2.2,178,125,110,62,217,73,73,125,
+Jay Peak,Vermont,Vermont,3968,2153,1815,1,0,0,1,3,1,1,2,9,79,2,3,385,300,155,64,349,89,89,160,
+Killington Resort,Vermont,Vermont,4241,3050,1165,3,0,1,5,4,3,1,5,22,155,6,6,1515,600,192,61,250,119,119,,
+Mad River Glen,Vermont,Vermont,3637,2037,1600,0,,0,0,0,2,2,1,5,52,,1,115,16,134,71,228,,,135,
+Magic Mountain,Vermont,Vermont,2850,1500,1350,0,0,0,0,0,0,3,3,6,50,1,1.6,205,95,76,59,150,74,74,80,
+Mount Snow,Vermont,Vermont,3600,1700,1900,0,0,1,3,1,6,4,5,20,86,10,3,600,480,135,65,156,,,135,
+Okemo Mountain Resort,Vermont,Vermont,3344,2200,1144,0,0,1,4,5,3,0,7,20,121,9,4,667,654,146,63,200,,,152,
+Pico Mountain,Vermont,Vermont,3967,1967,2000,0,0,0,2,0,2,2,1,7,59,1,4,260,156,,82,250,81,81,,
+Smugglers' Notch Resort,Vermont,Vermont,3640,2610,1030,0,0,0,0,0,0,6,2,8,78,6,3,1000,192,136,63,280,79,79,135,
+Stowe Mountain Resort,Vermont,Vermont,4395,2360,2035,2,0,0,0,4,2,2,2,12,116,,3.7,485,388,155,86,314,,,137,
+Stratton Mountain,Vermont,Vermont,3875,2003,1872,1,0,4,1,2,1,1,1,11,99,4,3,670,474,155,58,180,,,160,
+Sugarbush,Vermont,Vermont,4083,2600,1483,0,0,0,5,5,2,1,3,16,111,4,3,581,406,150,61,250,119,119,156,
+Suicide Six,Vermont,Vermont,1200,650,550,0,,0,0,0,0,2,1,3,24,,0.4,100,50,100,85,90,45,75,106,
+Bryce Resort,Virginia,Virginia,1750,500,1250,0,,0,0,1,0,1,5,7,8,,0.4,25,25,100,54,30,43,68,95,20
+Massanutten,Virginia,Virginia,2925,1110,1750,0,,0,0,3,1,0,3,7,13,2,0.8,70,70,68,46,35,,,97,70
+The Homestead Ski Area,Virginia,Virginia,3200,700,2500,0,,0,0,0,0,1,1,2,10,,1,45,100,91,60,50,,,100,
+Wintergreen Resort,Virginia,Virginia,3515,1003,2512,0,,2,0,1,1,1,0,5,27,2,1,129,129,107,44,34,59,,121,45
+49 Degrees North,Washington,Washington,5774,1851,3932,0,0,0,0,1,0,5,1,7,89,1,2,2325,,101,48,301,62,62,135,250
+Alpental,Washington,Washington,5420,2280,3140,0,0,0,1,0,0,3,1,5,24,,1.2,825,,120,52,428,,,144,121
+Bluewood,Washington,Washington,5670,1125,4545,0,0,0,0,0,2,0,1,3,24,2,2,355,,70,40,300,42,47,110,
+Crystal Mountain,Washington,Washington,7012,3100,4400,1,,2,2,1,2,2,0,10,57,1,2.5,2600,10,,57,486,99,99,,
+Mission Ridge,Washington,Washington,6820,2250,4570,0,0,0,1,0,0,3,2,6,,3,0.8,2000,66,104,53,200,,,96,500
+Mt. Baker,Washington,Washington,5000,1500,3500,0,,0,0,8,0,0,2,10,38,,0.7,1000,,143,66,663,53.75,60.01,165,
+Mt. Spokane Ski and Snowboard Park,Washington,Washington,5889,2000,4200,0,0,0,0,0,1,5,1,7,52,3,0.6,1704,,100,81,300,45,59,103,45
+Stevens Pass Resort,Washington,Washington,5845,1800,4061,0,0,0,3,0,4,3,0,10,52,4,1,1125,,116,82,460,,,145,450
+The Summit at Snoqualmie,Washington,Washington,3865,1025,2840,0,,0,3,3,4,10,7,27,112,5,0.8,1994,5,120,82,428,85,95,140,541
+White Pass,Washington,Washington,6550,2050,4500,0,,0,2,1,1,2,2,8,45,2,2.5,1402,30,148,67,400,69,69,144,90
+Canaan Valley Resort,West Virginia,West Virginia,4280,850,3430,0,,0,0,1,2,0,1,4,47,1,1.2,95,75,,48,160,52,68,93,
+Snowshoe Mountain Resort,West Virginia,West Virginia,4848,1500,3348,0,,0,3,2,6,0,3,14,60,5,1.5,257,257,125,46,180,70,87,138,86
+Timberline Four Seasons,West Virginia,West Virginia,4265,1000,3268,0,,0,0,0,2,1,1,4,40,1,2,100,100,97,37,150,72,92,115,27
+Winterplace Ski Resort,West Virginia,West Virginia,3600,603,2997,0,,0,0,2,3,2,2,9,27,2,1.2,90,90,120,36,100,56,72,120,74
+Alpine Valley Resort,Wisconsin,Wisconsin,1040,388,820,0,,0,3,0,3,1,5,12,21,3,0.2,90,90,100,55,80,56,65,120,90
+Bruce Mound,Wisconsin,Wisconsin,1375,375,1000,0,0,0,0,0,1,0,4,5,12,2,0.5,40,30,42,71,42,33,25,42,30
+Cascade Mountain,Wisconsin,Wisconsin,1280,460,820,0,,0,2,2,3,2,3,12,47,4,1.1,175,175,120,57,56,59,64,120,
+Christie Mountain,Wisconsin,Wisconsin,1650,350,1300,0,,0,0,0,0,1,5,6,30,4,0.8,45,41,92,43,48,28,38,120,35
+Christmas Mountain,Wisconsin,Wisconsin,1250,250,1000,0,,0,0,1,0,0,2,3,16,,0.4,40,40,75,50,20,,,70,40
+Devils Head,Wisconsin,Wisconsin,995,500,495,0,,0,0,3,1,6,2,12,27,1,1,260,260,110,48,45,45,65,135,200
+Grand Geneva,Wisconsin,Wisconsin,1086,211,875,0,,0,0,0,0,3,3,6,20,1,0.2,30,30,90,25,25,28,49,93,30
+Granite Peak Ski Area,Wisconsin,Wisconsin,1942,700,1242,0,,1,2,0,2,0,2,7,75,4,0.6,220,160,136,82,75,92,92,135,200
+Little Switzerland,Wisconsin,Wisconsin,1269,200,1069,0,0,0,0,0,0,4,4,8,18,3,1,50,50,,,,33,41,,50
+Mount La Crosse,Wisconsin,Wisconsin,1110,516,594,0,,0,0,0,0,3,1,4,19,1,0.4,100,100,115,60,40,56,56,100,90
+Nordic Mountain,Wisconsin,Wisconsin,1137,265,872,0,,0,0,0,1,1,5,7,18,4,1,60,60,68,43,80,,47,90,60
+Sunburst,Wisconsin,Wisconsin,1100,214,866,0,0,0,0,0,0,3,6,9,13,4,0.5,37,37,99,59,50,33,44,115,37
+Trollhaugen,Wisconsin,Wisconsin,1200,260,920,0,0,0,0,2,0,1,5,8,24,4,0.5,86,86,130,69,50,54,54,120,86
+Tyrol Basin,Wisconsin,Wisconsin,1160,300,860,0,0,0,0,0,3,0,2,5,18,5,0.5,32,32,112,61,41,17,48,103,32
+Whitecap Mountain,Wisconsin,Wisconsin,1750,400,1295,0,,0,0,1,0,4,0,5,43,1,1,400,300,105,57,200,60,60,118,
+Wilmot Mountain,Wisconsin,Wisconsin,1030,230,800,0,,0,0,3,2,2,3,10,23,2,0.5,135,135,125,81,70,56,66,139,135
+Grand Targhee Resort,Wyoming,Wyoming,9920,2270,7851,0,0,0,2,2,0,0,1,5,95,1,2.7,2602,,152,50,500,90,90,152,
+Hogadon Basin,Wyoming,Wyoming,8000,640,7400,0,,0,0,0,0,1,1,2,28,1,0.6,92,32,121,61,80,48,48,95,
+Jackson Hole,Wyoming,Wyoming,10450,4139,6311,3,0,0,4,4,1,2,1,15,130,6,4.5,2500,195,130,54,459,,,133,
+Meadowlark Ski Lodge,Wyoming,Wyoming,9500,1000,8500,0,,0,0,0,1,1,1,3,14,1,1.5,300,,,9,,,,,
+Sleeping Giant Ski Resort,Wyoming,Wyoming,7428,810,6619,0,0,0,0,0,1,1,1,3,48,1,1,184,18,61,81,310,42,42,77,
+Snow King Resort,Wyoming,Wyoming,7808,1571,6237,0,,0,0,1,1,1,0,3,32,2,1,400,250,121,80,300,59,59,123,110
+Snowy Range Ski & Recreation Area,Wyoming,Wyoming,9663,990,8798,0,0,0,0,0,1,3,1,5,33,2,0.7,75,30,131,59,250,49,49,,
+White Pine Ski Area,Wyoming,Wyoming,9500,1100,8400,0,,0,0,0,2,0,0,2,25,,0.4,370,,,81,150,,49,,
